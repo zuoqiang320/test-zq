@@ -237,4 +237,31 @@ return array (
       '@kartik/widgets' => $vendorDir . '/kartik-v/yii2-widgets',
     ),
   ),
+  'yiisoft/yii2-httpclient' => 
+  array (
+    'name' => 'yiisoft/yii2-httpclient',
+    'version' => '2.0.1.0',
+    'alias' => 
+    array (
+      '@yii/httpclient' => $vendorDir . '/yiisoft/yii2-httpclient',
+    ),
+  ),
+  'yiisoft/yii2-authclient' => 
+  array (
+    'name' => 'yiisoft/yii2-authclient',
+    'version' => '2.1.0.0',
+    'alias' => 
+    array (
+      '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient',
+    ),
+  ),
+  'yiisoft/yii2-redis' => 
+  array (
+    'name' => 'yiisoft/yii2-redis',
+    'version' => '2.0.5.0',
+    'alias' => 
+    array (
+      '@yii/redis' => $vendorDir . '/yiisoft/yii2-redis',
+    ),
+  ),
 );

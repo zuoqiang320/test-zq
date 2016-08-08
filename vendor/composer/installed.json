@@ -508,57 +508,6 @@
         ]
     },
     {
-        "name": "bower-asset/bootstrap",
-        "version": "v3.3.5",
-        "version_normalized": "3.3.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twbs/bootstrap.git",
-            "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
-            "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/jquery": ">=1.9.1"
-        },
-        "type": "bower-asset-library",
-        "extra": {
-            "bower-asset-main": [
-                "less/bootstrap.less",
-                "dist/js/bootstrap.js"
-            ],
-            "bower-asset-ignore": [
-                "/.*",
-                "_config.yml",
-                "CNAME",
-                "composer.json",
-                "CONTRIBUTING.md",
-                "docs",
-                "js/tests",
-                "test-infra"
-            ]
-        },
-        "installation-source": "dist",
-        "license": [
-            "MIT"
-        ],
-        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-        "keywords": [
-            "css",
-            "framework",
-            "front-end",
-            "js",
-            "less",
-            "mobile-first",
-            "responsive",
-            "web"
-        ]
-    },
-    {
         "name": "yiisoft/yii2-bootstrap",
         "version": "2.0.6",
         "version_normalized": "2.0.6.0",
@@ -1503,61 +1452,6 @@
         ]
     },
     {
-        "name": "kartik-v/bootstrap-fileinput",
-        "version": "v4.3.3",
-        "version_normalized": "4.3.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-            "reference": "8c14423e41cfe6c6e0c1935a6c31a1136240d5d9"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/8c14423e41cfe6c6e0c1935a6c31a1136240d5d9",
-            "reference": "8c14423e41cfe6c6e0c1935a6c31a1136240d5d9",
-            "shasum": ""
-        },
-        "time": "2016-07-09 12:56:05",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "4.3.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "kartik\\plugins\\fileinput\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Kartik Visweswaran",
-                "email": "kartikv2@gmail.com",
-                "homepage": "http://www.krajee.com/"
-            }
-        ],
-        "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
-        "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
-        "keywords": [
-            "ajax",
-            "bootstrap",
-            "delete",
-            "file",
-            "image",
-            "input",
-            "jquery",
-            "multiple",
-            "preview",
-            "progress",
-            "upload"
-        ]
-    },
-    {
         "name": "kartik-v/yii2-widget-fileinput",
         "version": "v1.0.5",
         "version_normalized": "1.0.5.0",
@@ -2243,6 +2137,261 @@
         "keywords": [
             "angular",
             "bootstrap"
+        ]
+    },
+    {
+        "name": "bower-asset/bootstrap",
+        "version": "v3.3.7",
+        "version_normalized": "3.3.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+            "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.9.1,<=3"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "less/bootstrap.less",
+                "dist/js/bootstrap.js"
+            ],
+            "bower-asset-ignore": [
+                "/.*",
+                "_config.yml",
+                "CNAME",
+                "composer.json",
+                "CONTRIBUTING.md",
+                "docs",
+                "js/tests",
+                "test-infra"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "keywords": [
+            "css",
+            "framework",
+            "front-end",
+            "js",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "kartik-v/bootstrap-fileinput",
+        "version": "v4.3.4",
+        "version_normalized": "4.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+            "reference": "abde5a9611d4939b951fdd00f70a9fec935c7b6b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/abde5a9611d4939b951fdd00f70a9fec935c7b6b",
+            "reference": "abde5a9611d4939b951fdd00f70a9fec935c7b6b",
+            "shasum": ""
+        },
+        "time": "2016-08-07 07:50:42",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "kartik\\plugins\\fileinput\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+        "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+        "keywords": [
+            "ajax",
+            "bootstrap",
+            "delete",
+            "file",
+            "image",
+            "input",
+            "jquery",
+            "multiple",
+            "preview",
+            "progress",
+            "upload"
+        ]
+    },
+    {
+        "name": "yiisoft/yii2-httpclient",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-httpclient.git",
+            "reference": "05056e8f13fdee09c252686cea62f0889ecab8b7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/05056e8f13fdee09c252686cea62f0889ecab8b7",
+            "reference": "05056e8f13fdee09c252686cea62f0889ecab8b7",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "~2.0.0"
+        },
+        "time": "2016-08-04 13:29:03",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yii\\httpclient\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com"
+            }
+        ],
+        "description": "HTTP client extension for the Yii framework",
+        "keywords": [
+            "curl",
+            "http",
+            "httpclient",
+            "yii2"
+        ]
+    },
+    {
+        "name": "yiisoft/yii2-authclient",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-authclient.git",
+            "reference": "1e65f3af2c7095dbb55047f617231fc0ae601876"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/1e65f3af2c7095dbb55047f617231fc0ae601876",
+            "reference": "1e65f3af2c7095dbb55047f617231fc0ae601876",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2-httpclient": "~2.0.1"
+        },
+        "time": "2016-08-04 13:41:57",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yii\\authclient\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com"
+            }
+        ],
+        "description": "External authentication via OAuth and OpenID for the Yii framework",
+        "keywords": [
+            "OpenId",
+            "api",
+            "auth",
+            "oauth",
+            "yii2"
+        ]
+    },
+    {
+        "name": "yiisoft/yii2-redis",
+        "version": "2.0.5",
+        "version_normalized": "2.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-redis.git",
+            "reference": "7fd93ff3847e765964c8c83b7e3eed0281078916"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii2-redis/zipball/7fd93ff3847e765964c8c83b7e3eed0281078916",
+            "reference": "7fd93ff3847e765964c8c83b7e3eed0281078916",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": ">=2.0.4"
+        },
+        "time": "2016-03-17 04:11:03",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yii\\redis\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc"
+            }
+        ],
+        "description": "Redis Cache, Session and ActiveRecord for the Yii framework",
+        "keywords": [
+            "active-record",
+            "cache",
+            "redis",
+            "session",
+            "yii2"
         ]
     }
 ]

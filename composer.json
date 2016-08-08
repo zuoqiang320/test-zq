@@ -21,7 +21,9 @@
         "kartik-v/yii2-widgets": "dev-master",
         "bower-asset/angular": "*",
         "bower-asset/angular-route": "*",
-        "bower-asset/angular-strap": "*"
+        "bower-asset/angular-strap": "*",
+        "yiisoft/yii2-authclient": "~2.1.0",
+	"yiisoft/yii2-redis": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
