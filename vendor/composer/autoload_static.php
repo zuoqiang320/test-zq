@@ -26,6 +26,10 @@ class ComposerStaticInit0a4d18f3b086d3ccad2391dee1d737ac
             'yii\\authclient\\' => 15,
             'yii\\' => 4,
         ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
+        ),
         'k' => 
         array (
             'kartik\\widgets\\' => 15,
@@ -50,6 +54,10 @@ class ComposerStaticInit0a4d18f3b086d3ccad2391dee1d737ac
             'kartik\\base\\' => 12,
             'kartik\\alert\\' => 13,
             'kartik\\affix\\' => 13,
+        ),
+        'd' => 
+        array (
+            'dmstr\\' => 6,
         ),
         'c' => 
         array (
@@ -105,6 +113,10 @@ class ComposerStaticInit0a4d18f3b086d3ccad2391dee1d737ac
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
         ),
         'kartik\\widgets\\' => 
         array (
@@ -194,6 +206,10 @@ class ComposerStaticInit0a4d18f3b086d3ccad2391dee1d737ac
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-affix',
         ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
@@ -205,6 +221,13 @@ class ComposerStaticInit0a4d18f3b086d3ccad2391dee1d737ac
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
